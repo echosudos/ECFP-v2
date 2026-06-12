@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:18
+    container_name: electricity_tracker_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: electricity_tracker
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
