@@ -16,4 +16,4 @@ At its core, this project uses **Python 3** and **PostgreSQL 18** (running via D
 This project will likely end up as a combination of fullstack + AI vision + embedded development and will be a self-host type program. For now the plan is to focus on the backend (building out the core database logic and raw SQL queries) and AI vision component, and use a Discord bot as an interface.
 
 ## System Diagram
-<img src="./media/architecture.png" />
+<img src="./media/system_diagram.png" />
